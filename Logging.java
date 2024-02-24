@@ -13,12 +13,12 @@ public final class Logging {
   private Logging() {
     // whitespace
   }
+
   /**
    * Print message.
    *
    * @param args Command-line arguments (not used in program).
    */
-
   public static void main(final String[] args) {
 
     // Declare constants for 0.25,0.5,1.
@@ -63,12 +63,13 @@ public final class Logging {
       } else {
         // If user enters any other number.
         System.out.print(userNum + " is an invalid length.");
+        System.out.println();
       }
       input.close();
     } catch (NumberFormatException error) {
       // For any string input.
       System.out.println("Error" + error.getMessage());
-
+      System.out.println();
     }
   }
 }
