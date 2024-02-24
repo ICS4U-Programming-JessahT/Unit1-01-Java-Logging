@@ -22,9 +22,9 @@ public final class Logging {
   public static void main(final String[] args) {
 
     // Declare constants for 0.25,0.5,1.
-    final double LOG_ONE = 0.25;
-    final double LOG_TWO = 0.5;
-    final double LOG_THREE = 1;
+    final double logOne = 0.25;
+    final double logTwo = 0.5;
+    final double logThree = 1;
 
     try {
 
@@ -37,23 +37,23 @@ public final class Logging {
       final double userNum = Double.parseDouble(userNumString);
 
       // If user enters 0.25.
-      if (userNum == 0.25) {
-        final double loggingOneMul = LOG_ONE * 20;
+      if (userNum == logOne) {
+        final double loggingOneMul = logOne * 20;
         final double loggingOneDiv = 1100 / loggingOneMul;
         System.out.print("The amount of 0.25m logs that can fit into the");
         System.out.print(" truck are " + loggingOneDiv + " logs.");
         System.out.println();
-      } else if (userNum == 0.5) {
-        // If user enters 0.5.
-        final double loggingTwoMul = LOG_TWO * 20;
+      } else if (userNum == logTwo) {
+      // If user enters 0.5.
+        final double loggingTwoMul = logTwo * 20;
         final double loggingTwoDiv = 1100 / loggingTwoMul;
         System.out.print("The amount of 0.5m logs that can fit into the");
         System.out.print(" truck are " + loggingTwoDiv + " logs.");
         System.out.println();
 
-      } else if (userNum == 1) {
+      } else if (userNum == logThree) {
         // If user enters 1.
-        final double loggingThreeMul = LOG_THREE * 20;
+        final double loggingThreeMul = logThree * 20;
         final double loggingThreeDiv = 1100 / loggingThreeMul;
         System.out.print("The amount of 1m logs that can fit into the");
         System.out.print(" truck are " + loggingThreeDiv + " logs.");
