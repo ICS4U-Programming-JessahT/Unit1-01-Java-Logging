@@ -15,10 +15,10 @@ public final class Logging {
   }
 
   /**
-   * Print message.
-   *
-   * @param args Command-line arguments (not used in program).
-   */
+  * Print message.
+  *
+  * @param args Command-line arguments (not used in program).
+  */
   public static void main(final String[] args) {
 
     // Declare constants for 0.25,0.5,1.
