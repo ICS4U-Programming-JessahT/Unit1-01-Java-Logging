@@ -6,7 +6,6 @@ import java.util.Scanner;
  * @author Jessah
  * @version 1.0 @2024-02-23
  */
-
 public final class Logging {
 
   /** Private constructor to prevent instantiation of this utility class. */
@@ -15,10 +14,10 @@ public final class Logging {
   }
 
   /**
-  * Print message.
-  *
-  * @param args Command-line arguments (not used in program).
-  */
+   * Print message.
+   *
+   * @param args Command-line arguments (not used in program).
+   */
   public static void main(final String[] args) {
 
     // Declare constants for 0.25,0.5,1.
@@ -44,7 +43,7 @@ public final class Logging {
         System.out.print(" truck are " + loggingOneDiv + " logs.");
         System.out.println();
       } else if (userNum == logTwo) {
-      // If user enters 0.5.
+        // If user enters 0.5.
         final double loggingTwoMul = logTwo * 20;
         final double loggingTwoDiv = 1100 / loggingTwoMul;
         System.out.print("The amount of 0.5m logs that can fit into the");
